@@ -1,0 +1,30 @@
+# Code book
+This is the code book for Final Data set
+
+## Variables Description
+Data read from project data files. For description of each data files, refer to README in the project folder.
+
+features - features.txt file
+
+activityLabels - activity_labels.txt file
+
+subject_test - subject_test.txt file
+
+x_test - X_test.txt
+
+y_test - Y_test.txt
+
+subject_train - subject_train.txt
+
+x_train - X_train.txt
+
+y_train -Y_train.txt
+
+### Processing variables
+Merged_data - it is the merge dataset of x_test, y_test, subject_test, x_train, y_train and subject_train datasets.
+
+mrgd_test - it is the merged dataset of x_test, y_test and subject_test.
+
+mrgd_train - it is the merged dataset of x_train, y_train and subject_train.
+
+TidyData - it is the processed form of the Merged_data dataset after selecting only those columns that contains mean or std in theri names.
